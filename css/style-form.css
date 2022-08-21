@@ -1,0 +1,97 @@
+input{
+    cursor: pointer;
+}
+form{
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    background: #3f51b5b8;
+    padding: 20px;
+    border-radius: 10px;
+    color: #000000cf;
+}
+.myform{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+#title,
+#Activity {
+    padding: 6px 5px;
+    border: 0px transparent solid;
+    outline: .3px transparent solid;
+    border-bottom: 1px solid rebeccapurple;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+#userName,
+#email,
+#password,
+#w3review ,
+#w4review {
+    padding: 6px 5px;
+    border: 0px transparent solid;
+    outline: .3px transparent solid;
+    border-bottom: 1px solid rebeccapurple;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+#englishTitle,
+#arabicTitle{
+    padding: 6px 5px;
+    border: 0px transparent solid;
+    outline: .3px transparent solid;
+    border-bottom: 1px solid rebeccapurple;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.myDrop{
+    gap: 10px;
+
+}
+.catogre{
+    background: #3f51b591;
+    padding: 10px;
+    border-radius: 6px;
+    height: fit-content;
+}
+.catogre p{
+    margin: 0px;
+}
+.myDown-One{
+    display: none;
+}
+.myDown-One p {
+    margin: 0px;
+}
+.catogre-1:hover #myDown-One-1 {
+    display: block;
+}
+.catogre-2:hover #myDown-One-2 {
+    display: block;
+}
+.catogre{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    cursor: context-menu;
+}
+.catogre > div{
+    position: absolute;
+    margin-top: 25px;
+    background: #4c5bb3;
+    width: 100%;
+    border-radius: 0px 0px 10px 10px;
+}
